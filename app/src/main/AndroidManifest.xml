@@ -20,8 +20,7 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name="monkey.d.luffy.paradox.ui.IntroActivity"
+        <activity android:name="monkey.d.luffy.paradox.ui.IntroActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <activity

@@ -7,6 +7,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.transition.Transition;
@@ -140,6 +141,8 @@ public class RegisterActivity extends AppCompatActivity {
 
     private void clickRegister() {
         //  VALIDATION WILL COME HERE
-        Preferences.setLoggedIn(this);
+        View parentLayout = findViewById(android.R.id.content);
+        Snackbar.make(parentLayout, "MainActivity under construction", Snackbar.LENGTH_SHORT).show();
+        //    Preferences.setLoggedIn(this);
     }
 }

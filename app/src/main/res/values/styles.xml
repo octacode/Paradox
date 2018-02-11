@@ -28,4 +28,5 @@
         <item name="colorAccent">#4fa881</item>
         <item name="android:windowBackground">@drawable/bg</item>
     </style>
+
 </resources>
