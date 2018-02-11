@@ -20,11 +20,23 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="monkey.d.luffy.paradox.ui.IntroActivity" />
+        <activity
+            android:name="monkey.d.luffy.paradox.ui.IntroActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
-        <activity android:name="monkey.d.luffy.paradox.ui.LoginActivity"/>
+        <activity
+            android:name="monkey.d.luffy.paradox.ui.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentBackground" />
 
-        <activity android:name="monkey.d.luffy.paradox.ui.RegisterActivity"/>
+        <activity
+            android:name="monkey.d.luffy.paradox.ui.RegisterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Translucent" />
+
+
     </application>
 
 </manifest>
